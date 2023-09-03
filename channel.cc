@@ -27,8 +27,14 @@ int main()
             else if (a + plus < n)
                 cout << "NO\n";
             else if (a + plus == n)
+            {
                 if (plus == minus)
                     cout << "MAYBE\n";
+                if (plus < minus)
+                    cout << "NO\n";
+                if (plus > minus)
+                    cout << "YES\n";
+            }
         }
         else if (a == n)
             cout << "YES\n";
