@@ -6,6 +6,7 @@ int main()
     int n;
     cin >> n;
     string game;
+    
     cin >> game;
     int anton = 0, danik = 0;
     for (char c : game)
