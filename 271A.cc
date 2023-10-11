@@ -14,6 +14,7 @@ bool is_dist(int y)
     return true;
 }
 
+
 int main()
 {
     int y;
