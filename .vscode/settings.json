@@ -4,6 +4,7 @@
         "ostream": "cpp",
         "*.tcc": "cpp",
         "random": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "unordered_map": "cpp"
     }
 }
